@@ -20,9 +20,9 @@ app.get('/', (req, res) => {
   res.send('Hello from Express!');
 });
 
-app.get('/todo', (req,res)=>{
-    res.send('Tested ok')
-})
+// app.get('/todo', (req,res)=>{
+//     res.send('Tested ok')
+// })
 // Example MongoDB Model
 const ItemSchema = new mongoose.Schema({
   name: String,
