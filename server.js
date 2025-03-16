@@ -17,7 +17,7 @@ mongoose.connect(process.env.MONGODB_URI, {
 
 // Define a simple route
 app.get('/', (req, res) => {
-  res.send('Hello from Express!');
+  res.send('Hello from Express 2!');
 });
 
 // app.get('/todo', (req,res)=>{
